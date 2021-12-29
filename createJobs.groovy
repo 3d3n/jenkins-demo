@@ -29,7 +29,7 @@ pipelineJob('theme-park-job-docker') {
                     remote {
                         url 'https://github.com/tkgregory/spring-boot-api-example.git'
                     }
-                    branch 'master'
+                    branch 'main'
                     scriptPath('Jenkinsfile-docker')
                 }
             }
